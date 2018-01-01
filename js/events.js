@@ -25,17 +25,20 @@ function submitIt(){
 }
 
 $(document).ready(function(){
-  getIt();
+  getIt()
+  frameIt()
+  pressIt()
+  submitIt()
 });
-
-$(document).ready(function(){
-  frameIt();
-});
-
-$(document).ready(function(){
-  pressIt();
-});
-
-$(document).ready(function(){
-  submitIt();
-});
+//
+// $(document).ready(function(){
+//   frameIt();
+// });
+//
+// $(document).ready(function(){
+//   pressIt();
+// });
+//
+// $(document).ready(function(){
+//   submitIt();
+// });
